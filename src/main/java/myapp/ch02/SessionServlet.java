@@ -1,4 +1,4 @@
-package myapp;
+package myapp.ch02;
 
 import java.io.*;
 import javax.servlet.http.*;

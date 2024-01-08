@@ -1,4 +1,4 @@
-package myapp;
+package myapp.ch03;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
