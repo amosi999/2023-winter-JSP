@@ -4,6 +4,7 @@ public class UserBean {
     private String userid;
     private String password;
     private String email;
+    private String error;
 
     public String getUserid() {
         return userid;
@@ -27,5 +28,13 @@ public class UserBean {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getError() {
+        return error;
+    }
+
+    public void setError(String error) {
+        this.error = error;
     }
 }

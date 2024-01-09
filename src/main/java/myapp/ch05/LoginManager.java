@@ -6,6 +6,7 @@ public class LoginManager {
             user.setEmail("amosi@gmail.com");
             return true;
         } else {
+            user.setError("Invalid id/password");
             return false;
         }
     }
